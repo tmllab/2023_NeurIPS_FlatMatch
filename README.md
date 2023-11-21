@@ -59,7 +59,6 @@ To execute the training, execute the command
 
 This will start the training by running the `train()` function in `trainer.py`. 
 
-```
 
 ## Citations
 If you find our work is insightful, please consider citing our paper, thank you so much!
