@@ -64,12 +64,11 @@ This will start the training by running the `train()` function in `trainer.py`.
 If you find our work is insightful, please consider citing our paper, thank you so much!
 ```
 @inproceedings{
-huang2023flatmatch,
-title={FlatMatch: Bridging Labeled Data and Unlabeled Data with Cross-Sharpness for Semi-Supervised Learning},
-author={Zhuo Huang and Li Shen and Jun Yu and Bo Han and Tongliang Liu},
-booktitle={Thirty-seventh Conference on Neural Information Processing Systems},
-year={2023},
-url={https://openreview.net/forum?id=pE3yaP0Eqg}
+	huang2023flatmatch,
+	title={FlatMatch: Bridging Labeled Data and Unlabeled Data with Cross-Sharpness for Semi-Supervised Learning},
+	author={Zhuo Huang and Li Shen and Jun Yu and Bo Han and Tongliang Liu},
+	booktitle={Thirty-seventh Conference on Neural Information Processing Systems},
+	year={2023}
 }
 ```
 
