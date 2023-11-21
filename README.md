@@ -4,7 +4,9 @@ Zhuo Huang<sup>1</sup>, Li Shen<sup>2</sup>, Jun Yu<sup>3</sup>, Bo Han<sup>4</s
 
 <sup>1</sup>The University of Sydney, <sup>2</sup>JD Explore Academy, <sup>3</sup>University of Science and Technology of China, <sup>4</sup>Hong Kong Baptist University
 
-![FlatMatch Overview](images/illustration.png)
+<div align=center>
+<img width=600 src=illustration.png/>
+</div>
 
 ## Abstract
 Semi-Supervised Learning (SSL) has been an effective way to leverage abundant unlabeled data with extremely scarce labeled data. However, most SSL methods are commonly based on instance-wise consistency between different data transformations. Therefore, the label guidance on labeled data is hard to be propagated to unlabeled data. Consequently, the learning process on labeled data is much faster than on unlabeled data which is likely to fall into a local minima that does not favor unlabeled data, leading to sub-optimal generalization performance. In this paper, we propose FlatMatch which minimizes a cross-sharpness measure to ensure consistent learning performance between the two datasets. Specifically, we increase the empirical risk on labeled data to obtain a worst-case model which is a failure case that needs to be enhanced. Then, by leveraging the richness of unlabeled data, we penalize the prediction difference (i.e., cross-sharpness) between the worst-case model and the original model so that the learning direction is beneficial to generalization on unlabeled data. Therefore, we can calibrate the learning process without being limited to insufficient label information. As a result, the mismatched learning performance can be mitigated, further enabling the effective exploitation of unlabeled data and improving SSL performance. Through comprehensive validation, we show FlatMatch achieves state-of-the-art results in many SSL settings.
