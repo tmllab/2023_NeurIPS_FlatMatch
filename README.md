@@ -61,7 +61,7 @@ This will start the training by running the `train()` function in `trainer.py`.
 
 
 ## Citations
-If you find our work is insightful, please consider citing our paper, thank you so much!
+If you find our work insightful, please consider citing our paper, thank you so much!
 ```
 @inproceedings{
 	huang2023flatmatch,
